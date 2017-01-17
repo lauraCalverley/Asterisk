@@ -1,0 +1,30 @@
+{
+    "name": "calverley/asterisk",
+    "description": "Asterisk for Laravel 5",
+    "keywords": ["laravel", "asterisk", "laravel 5", "ari", "agi"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Laura Calverley",
+            "email": "laura.calverley@thealarmguys.com"
+        }
+    ],
+    "require": {
+        "php" : ">=5.4.0",
+        "illuminate/support": "~5.1",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Calverley\\Laura\\": "src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1-dev"
+        }
+    }
+}
